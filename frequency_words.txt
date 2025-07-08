@@ -41,6 +41,10 @@ google
 gemini
 deepmind
 
+cursor
+windsurf
+augment
+
 chatgpt
 openai
 
