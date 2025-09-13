@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-13 17:18:58</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755526" target="_blank" class="news-link">iPhone 17预售开启，苹果官网被挤崩！网友：根本抢不到，不是说丑吗？小米总裁：很强，牙膏挤爆了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时18分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1949165641127928749" target="_blank" class="news-link">博主「户晨风」称 iPhone17 将对 4000 元以上的手机市场进行核打击，你认同他这个观点吗？</a> [12] <font color='grey'>- 17时18分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31601990" target="_blank" class="news-link">iPhone 17系列预购：不足20分钟Pro Max全系首发日无货，橙色抢手</a> [13] <font color='grey'>- 17时18分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1949088687347458136" target="_blank" class="news-link">小米卢伟冰表示「iPhone 17 标准版很强」，具体体现在哪些方面？</a> [13] <font color='grey'>- 17时18分</font><br>[douyin] <a href="https://www.douyin.com/hot/2235672" target="_blank" class="news-link">iPhone17首批预售售罄</a> [16] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755472" target="_blank" class="news-link">美股涨跌不一，特斯拉两日大涨14%，美债美元齐跌，加密货币普涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时18分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755510" target="_blank" class="news-link">两天涨近14%！特斯拉股价大爆发，发生了什么？</a> [6] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%85%B0%E5%B7%9E%E4%BF%AE%E9%A9%AC%E8%B8%8F%E9%A3%9E%E7%87%95%E9%9B%95%E5%A1%91%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90" target="_blank" class="news-link">“兰州修马踏飞燕雕塑”系AI生成</a> [11] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2144218" target="_blank" class="news-link">八部门：目标2025年力争实现全年汽车销量3230万辆左右 同比增长约3%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8mbxxIldLtL" target="_blank" class="news-link">陆委会主委谄媚：若台芯片厂遭殃，美国也难过</a> [11] <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31602164" target="_blank" class="news-link">曹德旺在福耀科技大学开学典礼致辞：教育绝不能脱离实际</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时18分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
