@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-21 16:31:55</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B%E6%B7%B1%E5%BA%A6%E8%A7%A3%E8%AF%BB" target="_blank" class="news-link">DeepSeek新模型深度解读</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757530" target="_blank" class="news-link">DeepSeek新模型被硅谷夸疯了！用二维视觉压缩一维文字，单GPU能跑，“谷歌核心机密被开源”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时31分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757552" target="_blank" class="news-link">DeepSeek OCR论文引爆网络！Andrej Karpathy：我很喜欢；马斯克：未来99%都是光子</a> [7] <font color='grey'>- 16时31分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31813433" target="_blank" class="news-link">AI时代需要什么样的程序员</a> [9] <font color='grey'>- 16时31分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AIGC%E8%A7%86%E9%A2%91%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E5%86%85%E5%AE%B9%E8%A1%8C%E4%B8%9A" target="_blank" class="news-link">AIGC视频如何改变内容行业</a> [22] <font color='grey'>- 16时31分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345970&amp;amp;topic_name=Blg%E5%A4%A7%E5%8F%98%E5%A4%A9%2C%E5%8A%9F%E5%8B%8B%E6%95%99%E7%BB%83Bail%E5%8D%B8%E4%BB%BB%E7%A6%BB%E9%98%9F" target="_blank" class="news-link">Blg大变天,功勋教练Bail卸任离队</a> [28] <font color='grey'>- 16时31分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2175274" target="_blank" class="news-link">苹果股价站上新高 iPhone17“技术普惠”点燃换机潮 这些公司“实锤”进入供应链</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757523" target="_blank" class="news-link">苹果股价今年首创新高！iPhone 17热卖引爆换机潮</a> [10] <font color='grey'>- 16时31分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2175155" target="_blank" class="news-link">10月21日投资避雷针：4连板人气股提示风险 存储芯片相关收入占比不足1%</a> [7] <font color='grey'>- 16时31分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563556243709627943/" target="_blank" class="news-link">闻泰并购安世半导体是“蛇吞象”</a> [21] <font color='grey'>- 16时31分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31808336" target="_blank" class="news-link">圆桌｜零重力座椅、全隐藏式门把手涌现，汽车安全标准如何跟上新技术</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时31分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7563556243709627943/" target="_blank" class="news-link">闻泰并购安世半导体是“蛇吞象”</a> [21]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757552" target="_blank" class="news-link">DeepSeek OCR论文引爆网络！Andrej Karpathy：我很喜欢；马斯克：未来99%都是光子</a> [7]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=AIGC%E8%A7%86%E9%A2%91%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E5%86%85%E5%AE%B9%E8%A1%8C%E4%B8%9A" target="_blank" class="news-link">AIGC视频如何改变内容行业</a> [22]</li></ul></div>
+        </body>
+        </html>
+        
